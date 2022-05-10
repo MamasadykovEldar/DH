@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@import "../scss/header";
+@import "../scss/home";
+@import "../scss/programms";
+@import "../scss/aboutus";
+@import "../scss/whywe";
+@import "../scss/withus";
+@import "../scss/questions";
+@import "../scss/phone";
+@import "../scss/footer";
+@import "../scss/media";

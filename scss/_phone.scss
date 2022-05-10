@@ -1,0 +1,94 @@
+.phone {
+  background: linear-gradient(96.31deg, #894e91 34.29%, #c595cb 100%);
+  padding: 120px 0 53px;
+
+  &__textBlock {
+    max-width: 476px;
+    position: relative;
+    margin-bottom: 33px;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    border-bottom: 1px solid #9E6AA6;
+    padding-bottom: 30px;
+  }
+
+  &__strelka {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+  }
+
+  &__contacts {
+    padding-top: 33px;
+
+    .adress {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+
+    .tel {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+  }
+
+  &__form {
+    .input {
+      width: 392px;
+      height: 48px;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      margin: 12px 0px;
+      padding-left: 15px;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      outline: none;
+      background: none;
+      color: #fff;
+
+      &::placeholder {
+        color: #ffffff;
+      }
+    }
+
+    .checkbox {
+      margin-right: 9px;
+    }
+
+    .checkboxtext {
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+  }
+
+
+  &__btn {
+    width: 392px;
+    height: 48px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    outline: none;
+    background: none;
+    color: #fff;
+    margin-top: 48px;
+
+    &:hover {
+      opacity: 0.33;
+    }
+  }
+}

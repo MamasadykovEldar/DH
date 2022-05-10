@@ -1,0 +1,45 @@
+.aboutus {
+  height: 444px;
+  background: linear-gradient(96.31deg, #894e91 34.29%, #c595cb 100%);
+  padding: 80px 0;
+  position: relative;
+  &__title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  &__strblock{
+      .blocktitle{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-left: 30px;
+      }
+  }
+  &__subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 24px 0 56px;
+  }
+  &__more{
+      .link{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        
+      }
+  }
+  &__img{
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+}

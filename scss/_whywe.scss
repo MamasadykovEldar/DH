@@ -1,0 +1,55 @@
+.whywe {
+  padding: 70px 0 86px;
+
+  &__title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.2px;
+    color: #2b2b2b;
+    text-align: center;
+    margin-bottom: 97px;
+  }
+
+  &__info {
+    text-align: center;
+
+    .dollar {
+      border-radius: 25px;
+      padding: 13px 17px;
+      margin-bottom: 32px;
+      border: 10px solid rgba(40, 170, 99, 0.3);
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      color: #2b2b2b;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.3px;
+      color: rgba(43, 43, 43, 0.8);
+    }
+  }
+
+  &__btn {
+    background: #894e91;
+    height: 52px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover{
+    background: #7e1a8b;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+}

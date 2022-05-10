@@ -1,0 +1,245 @@
+@media (max-width: 600px) {
+  .header {
+    background: white;
+    position: fixed;
+    padding: 20px 0 50px 40px;
+    top: 0;
+    right: -500px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s ease;
+    &.active {
+      transition: all 1s ease;
+      opacity: 1;
+      right: 0;
+    }
+    &__navbar {
+      transition: 1s ease;
+      margin-left: 10px;
+    }
+    &__nav {
+      flex-direction: column;
+    }
+    &__btn {
+      display: none;
+    }
+
+    &__logo {
+      transform: scale(1.2);
+    }
+  }
+
+  .home {
+    background: url(../img/home/homebg.png);
+    padding-top: 70px;
+    padding-left: 0;
+    .burger {
+      display: flex;
+      justify-content: end;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      width: 100px;
+      height: 100px;
+      color: white;
+      font-size: 60px;
+    }
+
+    &__title {
+      font-size: 42px;
+      text-align: center;
+      margin-bottom: 100px;
+      line-height: 60px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    &__form {
+      display: none;
+    }
+  }
+
+  .programms {
+    padding-top: 20px;
+    justify-content: center;
+
+    &__blocks {
+      flex-wrap: wrap;
+
+      img {
+        width: 350px;
+      }
+    }
+
+    &__icons {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    &__title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      font-size: 19px;
+      text-align: center;
+    }
+
+    &__box {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+    }
+
+    &__textblock {
+      .box-subtitle {
+        width: 250px;
+      }
+    }
+  }
+
+  .aboutus {
+    padding: 20px 0;
+
+    &__img {
+      display: none;
+    }
+
+    &__strblock {
+      flex-wrap: wrap;
+
+      img {
+        display: none;
+      }
+    }
+
+    &__subtitle {
+      text-align: center;
+      line-height: 28px;
+    }
+
+    &__more {
+      text-align: center;
+    }
+  }
+
+  .whywe {
+    padding-top: 20px;
+    text-align: center;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    &__info {
+      margin-bottom: 50px;
+
+      .dollar {
+        margin-bottom: 7px;
+      }
+
+      .title {
+        margin-bottom: 7px;
+      }
+
+      .subtitle {
+        width: 350px;
+      }
+    }
+  }
+
+  .withus {
+    padding-top: 20px;
+    height: 890px;
+
+    &__titleblock {
+      margin-bottom: 20px;
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__subtitle {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    &__blocks {
+      flex-wrap: wrap;
+    }
+
+    &__btn {
+      margin-top: 10px;
+    }
+  }
+
+  .questions {
+    padding-top: 30px;
+
+    &__titleBlock {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    &__title {
+      margin-right: 0;
+    }
+
+    &__imgblock {
+      margin: 0 auto;
+    }
+
+    &__quests {
+      .quest {
+        font-size: 15px;
+      }
+      .answer {
+        &.active{
+          height: 300px;
+        }
+      }
+    }
+  }
+
+  .phone {
+    padding-top: 20px;
+
+    &__title {
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    &__strelka {
+      display: none;
+    }
+
+    &__textBlock {
+      margin-bottom: 0;
+    }
+
+    &__contacts {
+      padding-top: 0;
+    }
+
+    &__form {
+      .input {
+        width: 350px;
+      }
+    }
+
+    &__btn {
+      width: 350px;
+    }
+  }
+}
